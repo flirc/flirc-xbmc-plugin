@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="repository.flirc"
+        name="Official Flirc XBMC Add-on Repository"
+        version="1.0.0"
+        provider-name="Flirc">
+    <extension point="xbmc.addon.repository"
+        name="Official Flirc XBMC Add-on Repository">
+        <info compressed="false">https://github.com/flirc/flirc-xbmc-plugin/raw/master/addons.xml</info>
+        <checksum>https://github.com/flirc/flirc-xbmc-plugin/raw/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://github.com/flirc/flirc-xbmc-plugin/raw/master/zips</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Install the Flirc XBMC add-on from the official Flirc repository</summary>
+        <description>The Flirc XBMC add-on allows you to program your Flirc directly from within XBMC</description>
+        <disclaimer>For support please email support@flirc.tv</disclaimer>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="script.flirc" name="FLIRC" version="1.0.0" provider-name="spoyser">
+  <requires>
+    <import addon="xbmc.python" version="2.0"/>
+  </requires>
+  <extension point="xbmc.service" library="service.py" start="startup" />
+  <extension point="xbmc.python.script" library="default.py" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Program your FLIRC from within XBMC</summary>
+    <description lang="en">Program your FLIRC from within XBMC</description>
+     <platform>all</platform>
+  </extension>
+</addon>
+</addons>
