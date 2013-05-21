@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<settings>
+	<category label="Settings">
+        	<setting label="101" id="autoStart" type="bool" default="true" visible="true" />
+	</category>
+</settings>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<strings>
+    <comment>Title of FLIRC, should never change</comment>
+    <string id="1">Flirc</string>  
+
+    <comment>Dialog text labels</comment>
+    <string id="2">Okay</string>
+    <string id="3">Cancel</string>
+    <string id="4">Canceled</string>
+    <string id="5">Flirc libraries not found</string>
+    <string id="6">Please re-install addon</string>
+
+    <string id="7">Are you sure you want to remove all saved data?</string>
+    <string id="8">This will remove all saved remote keys</string>
+    <string id="9">Clearing flirc memory, please wait...</string>
+
+    <string id="10">Select firmware</string>
+    <string id="11">Firmware being upgraded, please wait...</string>
+
+    <string id="12">Select backup configuration folder</string>
+    <string id="13">File being saved, please wait...</string>
+
+    <string id="14">Select configuration file</string>
+    <string id="15">File being restored, please wait...</string>
+
+    <comment>Addon settings text labels</comment>
+    <string id="101">Start XBMC in automatic minimal programming mode</string>
+
+    <comment>Addon menu text labels</comment>
+    <string id="105">Switch controller</string>
+    <string id="106">Save configuration</string>
+    <string id="107">Load configuration</string>
+    <string id="108">Clear configuration</string>
+    <string id="109">Upgrade firmware</string>
+
+    <comment>Responses from Flirc commands</comment>
+    <string id="200">Recorded successfully</string>  
+    <string id="201">Button already exists</string>
+    <string id="202">Please connect flirc</string>
+    <string id="203">Recording stopped</string>
+    <string id="204">Erased button</string>
+    <string id="205">Button already erased</string>
+    <string id="206">Erasing cancelled</string>
+    <string id="207">Clear finished</string>
+    <string id="208">Transfer error</string>
+    <string id="209">Invalid parameter</string>
+    <string id="210">No more space for new buttons</string>
+    <string id="211">No library</string>
+    <string id="212">File restored</string>
+    <string id="213">File saved</string>
+    <string id="214">Firmware successfully upgraded</string>
+    <string id="215">Could not upgrade firmware. Contact support.</string>
+
+    <comment>Miscellaneous text strings</comment>
+    <string id="300">Press the button to be paired with '%s'</string>
+    <string id="301">Automatic programming will start in %d second(s)</string>
+    <string id="302">Congratulations, you're all done!</string>
+    <string id="303">Firmware v%s</string>
+
+
+    <comment>The following are the 'infotips' for each button, by default the same text is sent to the</comment>
+    <comment>'flirc record' command if the record command needs something different add 10000 to the ID</comment>
+    <comment>to send decimal HID codes use, for example, HID 65</comment>
+
+    <comment>------------------------------------------------------------------------------------------</comment>
+
+    <comment>Minimal Keyboard</comment>
+    <comment>Text for when no button has focus</comment>
+    <string id="1000">Press go to start the automated process</string>  
+
+    <string id="1001">Press to erase a stored command</string>
+    <string id="1002">Click the button on your remote to be erased</string>
+    <string id="1003">Press to start the automated process</string>
+
+    <string id="1011">Up</string>
+    <string id="1012">Left</string>
+    <string id="1013">Down</string>
+    <string id="1014">Right</string>
+    <string id="1015">Enter</string>
+    <string id="1016">Back</string>
+    <string id="11016">Backspace</string>
+
+    <comment>------------------------------------------------------------------------------------------</comment>
+    
+    <comment>XBMC Keyboard</comment>
+    <comment>Text for when no button has focus</comment>
+    <string id="2000">Click a key to start recording</string>  
+
+    <string id="2001">Press to erase a stored command</string>
+    <string id="2002">Click the button on your remote to be erased</string>
+
+    <string id="2011">One</string>
+    <string id="12011">1</string>
+    <string id="2012">Two</string>
+    <string id="12012">2</string>
+    <string id="2013">Three</string>
+    <string id="12013">3</string>
+    <string id="2014">Four</string>
+    <string id="12014">4</string>
+    <string id="2015">Five</string>
+    <string id="12015">5</string>
+    <string id="2016">Six</string>
+    <string id="12016">6</string>
+    <string id="2017">Seven</string>
+    <string id="12017">7</string>
+    <string id="2018">Eight</string>
+    <string id="12018">8</string>
+    <string id="2019">Nine</string>
+    <string id="12019">9</string>
+    <string id="2020">Zero</string>
+    <string id="12020">0</string>
+
+    <string id="2021">Up</string>
+    <string id="2022">Left</string>
+    <string id="2023">Down</string>
+    <string id="2024">Right</string>
+    <string id="2025">Enter</string>
+    <string id="2026">Back</string>
+    <string id="12026">Backspace</string>
+
+    <string id="2027">Mute</string>
+    <string id="12027">F8</string>
+    <string id="2028">Volume Down</string>
+    <string id="12028">-</string>
+    <string id="2029">Volume Up</string>
+    <string id="12029">=</string>
+    <string id="2030">Fullscreen</string>
+    <string id="12030">HID 100</string>
+    <string id="2031">Context Menu</string>
+    <string id="12031">c</string>
+
+    <string id="2032">Play</string>
+    <string id="12032">p</string>
+    <string id="2033">Pause</string>
+    <string id="12033">space</string>
+    <string id="2034">Stop</string>
+    <string id="12034">x</string>
+    <string id="2035">Rewind</string>
+    <string id="12035">r</string>
+    <string id="2036">Forward</string>
+    <string id="12036">f</string>
+    <string id="2037">Previous</string>
+    <string id="12037">,</string>
+    <string id="2038">Next</string>
+    <string id="12038">.</string>
+
+    <string id="2039">Power</string>
+    <string id="12039">s</string>
+    <string id="2040">Info</string>
+    <string id="12040">i</string>
+    <string id="2041">Parent Folder</string>
+    <string id="12041">escape</string>
+    <string id="2042">CPU</string>
+    <string id="12042">o</string>
+    <comment>------------------------------------------------------------------------------------------</comment>
+</strings>
