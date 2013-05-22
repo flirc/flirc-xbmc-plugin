@@ -78,67 +78,8 @@ def getFirmwareString(version):
 
 
 def log(text):
-    #xbmc.log("[FLIRC] : %s" % str(text), xbmc.LOGDEBUG)
-    xbmc.log("[FLIRC] : %s" % str(text))
-
-'''
-def getPlatform():
-    print "**************LOGPATH********************"
-    print os.path.join(xbmc.translatePath('special://logpath'), 'xbmc.log')
-    print "**************GET PLATFORM********************"
-    print getSystem()
-    print "**************MACHINE IS********************"
-    print getSystem()['machine']
-    return getSystem()['machine']
-'''
-
-'''
-def getPlatform():
-    if xbmc.getCondVisibility('system.platform.linux'):
-        return getLinuxPlatform()
-
-    if xbmc.getCondVisibility('system.platform.windows'):
-        return 'windows'
-
-    if xbmc.getCondVisibility('system.platform.osx'):
-        return 'osx'
-
-    if xbmc.getCondVisibility('system.platform.android'):
-        return 'android'
-
-    if xbmc.getCondVisibility('system.platform.atv2'):
-        return 'atv2'
-  
-    if xbmc.getCondVisibility('system.platform.ios'):
-        return 'ios'
-
-    if xbmc.getCondVisibility('system.platform.xbox'):
-        return 'xbox'
-
-    return 'unknown'
-
-
-def getLinuxPlatform():
-    import re
-    logPath  = os.path.join(xbmc.translatePath('special://logpath'), 'xbmc.log')
-    f        = open(logPath, 'r')
-    rCompile = 'Platform: (.+?) Built on'
-
-    for line in f:
-        match = re.compile(rCompile).findall(line)
-        if len(match) > 0:
-            for arch in ARCHITECTURE:
-                if arch in match[0]:
-                    return arch
-            return 'unknown'
-
-    return 'unknown'
-
-
-def getLogPath():
-    return os.path.join(xbmc.translatePath('special://logpath'), 'xbmc.log')
-'''
-
+    xbmc.log("[FLIRC] : %s" % str(text), xbmc.LOGDEBUG)
+    #xbmc.log("[FLIRC] : %s" % str(text))
 
 def getSystem():
     system            = dict()
@@ -178,14 +119,13 @@ def getUserdataPath():
 
 def getFlircLibrary():    
     system  = getSystem()
-    print "*********************************"
-    print system
+
     sysname = system['sysname']
     machine = system['machine']
 
     path = xbmc.translatePath(ADDON.getAddonInfo('path')) 
     path = os.path.join(path, 'libraries', sysname, machine, 'libflirc')
-    print path
+    log('library path = %s' % path)
     return path
 
 
