@@ -123,8 +123,14 @@ def getFlircLibrary():
     sysname = system['sysname']
     machine = system['machine']
 
+    ext = ''
+    if sysname == 'Darwin':
+        ext = '.dylib'
+    if sysname == 'Linux':
+        ext = '.so'
+
     path = xbmc.translatePath(ADDON.getAddonInfo('path')) 
-    path = os.path.join(path, 'libraries', sysname, machine, 'libflirc')
+    path = os.path.join(path, 'libraries', sysname, machine, 'libflirc%s' % ext)
     log('library path = %s' % path)
     return path
 
@@ -144,7 +150,7 @@ def getSetting(setting):
 
 
 def hideCancelButton():
-    #xbmc.sleep(250)
+    xbmc.sleep(250)
     WINDOW_PROGRESS = xbmcgui.Window(10101)
     CANCEL_BUTTON   = WINDOW_PROGRESS.getControl(10)
     CANCEL_BUTTON.setVisible(False)
