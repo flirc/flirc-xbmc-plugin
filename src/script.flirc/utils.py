@@ -131,7 +131,6 @@ def getFlircLibrary():
 
     path = xbmc.translatePath(ADDON.getAddonInfo('path')) 
     path = os.path.join(path, 'libraries', sysname, machine, 'libflirc%s' % ext)
-    log('library path = %s' % path)
     return path
 
 

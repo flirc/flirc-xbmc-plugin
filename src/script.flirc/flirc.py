@@ -65,9 +65,14 @@ class Flirc(object):
 
 
     def loadLibrary(self):
+        path = 'unknown'
         try:
-            self.lib = ctypes.cdll.LoadLibrary(utils.getFlircLibrary()) 
-        except:
+            path     = utils.getFlircLibrary()
+            self.lib = ctypes.cdll.LoadLibrary(path) 
+        except Exception, e:
+            utils.log('***** loadLibary Failed *****')
+            utils.log('library path = %s' % path)
+            utils.log('err = %s' % str(e))
             self.lib = None
             utils.ok(1, 5, 0, 6)
 
