@@ -95,6 +95,7 @@
                        <onleft>108</onleft>
                        <ondown>1001</ondown>
                        <onright>1012</onright>
+                       <visible>false</visible>
                    </control>
                 </control>
 

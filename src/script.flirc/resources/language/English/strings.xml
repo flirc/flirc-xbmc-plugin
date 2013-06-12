@@ -77,7 +77,7 @@
     <string id="1013">Down</string>
     <string id="1014">Right</string>
     <string id="1015">Enter</string>
-    <string id="1016">Back</string>
+    <string id="1016">Go Back</string>
     <string id="11016">Backspace</string>
 
     <comment>------------------------------------------------------------------------------------------</comment>
@@ -115,8 +115,10 @@
     <string id="2023">Down</string>
     <string id="2024">Right</string>
     <string id="2025">Enter</string>
-    <string id="2026">Back</string>
+    <string id="2026">Go Back</string>
     <string id="12026">Backspace</string>
+    <string id="2042">Home</string>
+    <string id="12042">Escape</string>
 
     <string id="2027">Mute</string>
     <string id="12027">F8</string>
@@ -126,8 +128,8 @@
     <string id="12029">=</string>
     <string id="2030">Fullscreen</string>
     <string id="12030">HID 100</string>
-    <string id="2031">Context Menu</string>
-    <string id="12031">c</string>
+    <string id="2031">Toggle Subtitles</string>
+    <string id="12031">t</string>
 
     <string id="2032">Play</string>
     <string id="12032">p</string>
@@ -143,14 +145,16 @@
     <string id="12037">,</string>
     <string id="2038">Next</string>
     <string id="12038">.</string>
+    <string id="2043">Previous Track</string>
+    <string id="12043">[</string>
+    <string id="2044">Next Track</string>
+    <string id="12044">]</string>
 
     <string id="2039">Power</string>
     <string id="12039">s</string>
     <string id="2040">Info</string>
     <string id="12040">i</string>
-    <string id="2041">Parent Folder</string>
-    <string id="12041">escape</string>
-    <string id="2042">CPU</string>
-    <string id="12042">o</string>
+    <string id="2041">Display CPU Usage</string>
+    <string id="12041">o</string>
     <comment>------------------------------------------------------------------------------------------</comment>
 </strings>

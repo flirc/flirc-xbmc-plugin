@@ -82,7 +82,7 @@
                        <onleft>107</onleft>
                     </control>
         	    <control type="button" id="109">
-                       <description>Upgrade Configuration</description>
+                       <description>Upgrade Firmware</description>
                        <label>$ADDON[script.flirc 109]</label>
                        <posx>0</posx>
                        <posy>168</posy>
@@ -95,6 +95,7 @@
                        <ondown>2001</ondown>
                        <onright>2011</onright>
                        <onleft>108</onleft>
+                       <visible>false</visible>
                     </control>
                 </control>
 
@@ -509,6 +510,8 @@
                     <texturefocus>xbmc\left.png</texturefocus>
                     <onright>2025</onright>
 		    <onleft>2020</onleft>
+                    <ondown>2042</ondown>
+                    <onup>2042</onup>
                 </control>   	
 		<control type="button" id="3022">
                     <description>Left Button Hi-Lite</description>
@@ -530,7 +533,7 @@
                     <texturefocus>xbmc\down.png</texturefocus>
                     <onup>2025</onup>
                     <onright>2026</onright>
-                    <onleft>2022</onleft>
+                    <onleft>2042</onleft>
                     <ondown>2021</ondown>
                 </control>   	
 		<control type="button" id="3023">
@@ -553,6 +556,7 @@
                     <texturefocus>xbmc\right.png</texturefocus>
                     <onleft>2025</onleft>
                     <ondown>2026</ondown>
+                    <onup>2026</onup>
                     <onright>2027</onright>
                 </control>   	
 		<control type="button" id="3024">
@@ -688,7 +692,7 @@
                     <height>40</height>
                     <texturenofocus>blank.png</texturenofocus>
                     <texturefocus>xbmc\fullscreen.png</texturefocus>
-                    <onup>2042</onup>
+                    <onup>2035</onup>
                     <ondown>2035</ondown>
                     <onleft>2029</onleft>
                     <onright>2031</onright>
@@ -704,26 +708,26 @@
                 </control> 
 
                 <control type="button" id="2031">
-                    <description>Context Menu Button Standard</description>
+                    <description>Subtitle Button Standard</description>
                     <posx>861</posx>
                     <posy>266</posy>
                     <width>42</width>
                     <height>40</height>
                     <texturenofocus>blank.png</texturenofocus>
-                    <texturefocus>xbmc\context.png</texturefocus>
+                    <texturefocus>xbmc\subtitle.png</texturefocus>
                     <onup>2036</onup>
                     <ondown>2036</ondown>
                     <onleft>2030</onleft>
-                    <onright>2032</onright>
+                    <onright>2043</onright>
                 </control>   	
 		<control type="button" id="3031">
-                    <description>Context Menu Button Hi-Lite</description>
+                    <description>Subtitle Button Hi-Lite</description>
                     <posx>861</posx>
                     <posy>266</posy>
                     <width>42</width>
                     <height>40</height>
-                    <texturefocus>xbmc\context.png</texturefocus>
-                    <texturenofocus>xbmc\context.png</texturenofocus>
+                    <texturefocus>xbmc\subtitle.png</texturefocus>
+                    <texturenofocus>xbmc\subtitle.png</texturenofocus>
                 </control> 
 
                 <control type="button" id="2032">
@@ -736,7 +740,7 @@
                     <texturefocus>xbmc\play.png</texturefocus>
                     <onup>2027</onup>
                     <ondown>2039</ondown>
-                    <onleft>2031</onleft>
+                    <onleft>2044</onleft>
                     <onright>2033</onright>
                 </control>   	
 		<control type="button" id="3032">
@@ -804,7 +808,7 @@
                     <texturenofocus>blank.png</texturenofocus>
                     <texturefocus>xbmc\rewind.png</texturefocus>
                     <onup>2030</onup>
-                    <ondown>2042</ondown>
+                    <ondown>2030</ondown>
                     <onleft>2034</onleft>
                     <onright>2036</onright>
                 </control>   	
@@ -851,6 +855,8 @@
                     <texturefocus>xbmc\previous.png</texturefocus>
                     <onleft>2036</onleft>
                     <onright>2038</onright>
+                    <onup>2043</onup>
+                    <ondown>2043</ondown>
                 </control>   	
 		<control type="button" id="3037">
                     <description>Previous Button Hi-Lite</description>
@@ -872,6 +878,8 @@
                     <texturefocus>xbmc\next.png</texturefocus>
                     <onleft>2037</onleft>
                     <onright>2039</onright>
+                    <onup>2044</onup>
+                    <ondown>2044</ondown>
                 </control>   	
 		<control type="button" id="3038">
                     <description>Next Button Hi-Lite</description>
@@ -930,49 +938,95 @@
                 </control>
 
                 <control type="button" id="2041">
-                    <description>Parent Folder Button Standard</description>
-                    <posx>778</posx>
-                    <posy>346</posy>
-                    <width>41</width>
-                    <height>41</height>
-                    <texturenofocus>blank.png</texturenofocus>
-                    <texturefocus>xbmc\parentFolder.png</texturefocus>
-                    <onup>2034</onup>
-                    <ondown>2029</ondown>
-                    <onleft>2040</onleft>
-                    <onright>2042</onright>
-                </control>   	
-		<control type="button" id="3041">
-                    <description>Parent Folder Button Hi-Lite</description>
-                    <posx>778</posx>
-                    <posy>346</posy>
-                    <width>41</width>
-                    <height>41</height>
-                    <texturefocus>xbmc\parentFolder.png</texturefocus>
-                    <texturenofocus>xbmc\parentFolder.png</texturenofocus>
-                </control>
-
-                <control type="button" id="2042">
                     <description>CPU Button Standard</description>
-                    <posx>819</posx>
+                    <posx>777</posx>
                     <posy>346</posy>
                     <width>42</width>
                     <height>41</height>
                     <texturenofocus>blank.png</texturenofocus>
                     <texturefocus>xbmc\cpu.png</texturefocus>
-                    <onup>2035</onup>
-                    <ondown>2030</ondown>
-                    <onleft>2041</onleft>
+                    <onup>2034</onup>
+                    <ondown>2029</ondown>
+                    <onleft>2040</onleft>
                     <onright>2027</onright>
                 </control>   	
-		<control type="button" id="3042">
+		<control type="button" id="3041">
                     <description>CPU Button Hi-Lite</description>
-                    <posx>819</posx>
+                    <posx>777</posx>
                     <posy>346</posy>
                     <width>42</width>
                     <height>41</height>
                     <texturefocus>xbmc\cpu.png</texturefocus>
                     <texturenofocus>xbmc\cpu.png</texturenofocus>
+                </control>
+
+                <control type="button" id="2042">
+                    <description>Home Button Standard</description>
+                    <posx>511</posx>
+                    <posy>348</posy>
+                    <width>42</width>
+                    <height>39</height>
+                    <texturenofocus>blank.png</texturenofocus>
+                    <texturefocus>xbmc\home.png</texturefocus>
+                    <onup>2022</onup>
+                    <ondown>2022</ondown>
+                    <onleft>2019</onleft>
+                    <onright>2023</onright>
+                </control>   	
+		<control type="button" id="3042">
+                    <description>Home Button Hi-Lite</description>
+                    <posx>511</posx>
+                    <posy>348</posy>
+                    <width>42</width>
+                    <height>39</height>
+                    <texturefocus>xbmc\home.png</texturefocus>
+                    <texturenofocus>xbmc\home.png</texturenofocus>
+                </control>
+
+                <control type="button" id="2043">
+                    <description>Previous Track Button Standard</description>
+                    <posx>903</posx>
+                    <posy>267</posy>
+                    <width>42</width>
+                    <height>39</height>
+                    <texturenofocus>blank.png</texturenofocus>
+                    <texturefocus>xbmc\prevTrack.png</texturefocus>
+                    <onup>2037</onup>
+                    <ondown>2037</ondown>
+                    <onleft>2031</onleft>
+                    <onright>2044</onright>
+                </control>   	
+		<control type="button" id="3043">
+                    <description>Previous Track Button Hi-Lite</description>
+                    <posx>903</posx>
+                    <posy>267</posy>
+                    <width>42</width>
+                    <height>39</height>
+                    <texturefocus>xbmc\prevTrack.png</texturefocus>
+                    <texturenofocus>xbmc\prevTrack.png</texturenofocus>
+                </control>
+
+                <control type="button" id="2044">
+                    <description>Next Track Button Standard</description>
+                    <posx>945</posx>
+                    <posy>267</posy>
+                    <width>40</width>
+                    <height>38</height>
+                    <texturenofocus>blank.png</texturenofocus>
+                    <texturefocus>xbmc\nextTrack.png</texturefocus>
+                    <onup>2038</onup>
+                    <ondown>2038</ondown>
+                    <onleft>2043</onleft>
+                    <onright>2032</onright>
+                </control>   	
+		<control type="button" id="3044">
+                    <description>Next Track Button Hi-Lite</description>
+                    <posx>945</posx>
+                    <posy>267</posy>
+                    <width>40</width>
+                    <height>38</height>
+                    <texturefocus>xbmc\nextTrack.png</texturefocus>
+                    <texturenofocus>xbmc\nextTrack.png</texturenofocus>
                 </control>
 
             <control type="label" id="200">
