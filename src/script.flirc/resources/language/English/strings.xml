@@ -27,7 +27,8 @@
     <string id="101">Start XBMC in automatic minimal programming mode</string>
 
     <comment>Addon menu text labels</comment>
-    <string id="105">Switch controller</string>
+    <string id="1105">More Keys</string>
+    <string id="2105">Basic Keys</string>
     <string id="106">Save configuration</string>
     <string id="107">Load configuration</string>
     <string id="108">Clear configuration</string>
@@ -50,6 +51,7 @@
     <string id="213">File saved</string>
     <string id="214">Firmware successfully upgraded</string>
     <string id="215">Could not upgrade firmware. Contact support.</string>
+    <string id="216">Operation timed-out</string>
 
     <comment>Miscellaneous text strings</comment>
     <string id="300">Press the button to be paired with '%s'</string>
@@ -139,22 +141,22 @@
     <string id="12034">x</string>
     <string id="2035">Rewind</string>
     <string id="12035">r</string>
-    <string id="2036">Forward</string>
+    <string id="2036">Fast Forward</string>
     <string id="12036">f</string>
     <string id="2037">Previous</string>
     <string id="12037">,</string>
     <string id="2038">Next</string>
     <string id="12038">.</string>
-    <string id="2043">Previous Track</string>
+    <string id="2043">Previous Chapter</string>
     <string id="12043">[</string>
-    <string id="2044">Next Track</string>
+    <string id="2044">Next Chapter</string>
     <string id="12044">]</string>
 
-    <string id="2039">Power</string>
+    <string id="2039">Shutdown</string>
     <string id="12039">s</string>
     <string id="2040">Info</string>
     <string id="12040">i</string>
-    <string id="2041">Display CPU Usage</string>
+    <string id="2041">CPU Usage</string>
     <string id="12041">o</string>
     <comment>------------------------------------------------------------------------------------------</comment>
 </strings>

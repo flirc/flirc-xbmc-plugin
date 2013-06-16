@@ -34,6 +34,7 @@ LOAD_OK         = 212
 SAVE_OK         = 213
 UPGRADE_OK      = 214
 UPGRADE_FAILED  = 215
+TIMED_OUT       = 216
 
 RECORD_TEXT   = 300
 AUTO_TEXT     = 301
