@@ -25,7 +25,7 @@
                    <visible>true</visible>                   
                    <control type="button" id="105">
                        <description>Switch Controller</description>
-                       <label>$ADDON[script.flirc 105]</label>
+                       <label>$ADDON[script.flirc 2105]</label>
                        <posx>0</posx>
                        <posy>0</posy>
                        <width>200</width>
@@ -101,16 +101,16 @@
 
 		<control type="button" id="2000">
                     <description>Hidden control used to lose focus from keyboard</description>
-                    <posx>-100</posx>
-                    <posy>-100</posy>
+                    <posx>-150</posx>
+                    <posy>-150</posy>
                 </control>
 
 		<control type="button" id="2001">
                     <description>Erase Button Standard</description>
-                    <posx>154</posx>
-                    <posy>632</posy>
-                    <width>114</width>
-                    <height>78</height>                   
+                    <posx>142</posx>
+                    <posy>511</posy>
+                    <width>163</width>
+                    <height>107</height>                   
                     <texturenofocus>blank.png</texturenofocus>
                     <texturefocus>erase.png</texturefocus>
                     <onup>2020</onup>
@@ -120,34 +120,34 @@
                 </control>   	
 		<control type="button" id="3001">
                     <description>Erase Button Hi-Lite</description>
-                    <posx>154</posx>
-                    <posy>632</posy>
-                    <width>114</width>
-                    <height>78</height>                   
+                    <posx>142</posx>
+                    <posy>511</posy>
+                    <width>163</width>
+                    <height>107</height>                   
                     <texturefocus>erase.png</texturefocus>
                     <texturenofocus>erase.png</texturenofocus>
                 </control>
 		<control type="button" id="3002">
                     <description>Stop-Erase Button</description>
-                    <posx>154</posx>
-                    <posy>632</posy>
-                    <width>114</width>
-                    <height>78</height>                   
-                    <texturenofocus>stop-erase.png</texturenofocus>
-                    <texturefocus>stop-erase.png</texturefocus>
+                    <posx>142</posx>
+                    <posy>511</posy>
+                    <width>163</width>
+                    <height>107</height>                   
+                    <texturenofocus>stop.png</texturenofocus>
+                    <texturefocus>stop.png</texturefocus>
                 </control>
 		<control type="button" id="2002">
                     <description>Spare</description>
-                    <posx>-100</posx>
-                    <posy>-100</posy>
+                    <posx>-150</posx>
+                    <posy>-150</posy>
                 </control>
 
 		<control type="button" id="2003">
                     <description>Go Button Standard (1023, 520)</description>
-                    <posx>-100</posx>
-                    <posy>-100</posy>
-                    <width>103</width>
-                    <height>79</height>                   
+                    <posx>-150</posx>
+                    <posy>-150</posy>
+                    <width>163</width>
+                    <height>107</height>                   
                     <texturenofocus>blank.png</texturenofocus>
                     <texturefocus>go.png</texturefocus>
                     <onup>1016</onup>
@@ -156,104 +156,104 @@
                 </control>   	
 		<control type="button" id="3003">
                     <description>Go Button Hi-Lite</description>
-                    <posx>-100</posx>
-                    <posy>-100</posy>
-                    <width>103</width>
-                    <height>79</height>
+                    <posx>-150</posx>
+                    <posy>-150</posy>
+                    <width>163</width>
+                    <height>107</height> 
                     <texturefocus>go.png</texturefocus>
                     <texturenofocus>go.png</texturenofocus>
                 </control>
 
 		<control type="button" id="3004">
                     <description>Stop-Go Button</description>
-                    <posx>-100</posx>
-                    <posy>-100</posy>
-                    <width>103</width>
-                    <height>79</height>
-                    <texturenofocus>stop-go.png</texturenofocus>
-                    <texturefocus>stop-go.png</texturefocus>
+                    <posx>-150</posx>
+                    <posy>-150</posy>
+                    <width>163</width>
+                    <height>107</height> 
+                    <texturenofocus>stop.png</texturenofocus>
+                    <texturefocus>stop.png</texturefocus>
                 </control>
 		<control type="button" id="2004">
                     <description>Spare</description>
-                    <posx>-100</posx>
-                    <posy>-100</posy>
+                    <posx>-150</posx>
+                    <posy>-150</posy>
                 </control>
 
 		<control type="image" id="2005">
                     <description>Connected Image</description>
-                    <posx>1033</posx>
-                    <posy>634</posy>
-                    <width>98</width>
-                    <height>66</height> 
+                    <posx>1007</posx>
+                    <posy>631</posy>
+                    <width>121</width>
+                    <height>84</height> 
                     <texture>connected.png</texture>                  
                 </control>                
                 <control type="button" id="3005">
                     <description>Spare</description>
-                    <posx>-100</posx>
-                    <posy>-100</posy>
+                    <posx>-150</posx>
+                    <posy>-150</posy>
                 </control>
 		
 		<control type="button" id="2006">
                     <description>Spare</description>
-                    <posx>-100</posx>
-                    <posy>-100</posy>
+                    <posx>-150</posx>
+                    <posy>-150</posy>
                 </control>
                 <control type="button" id="3006">
                     <description>Spare</description>
-                    <posx>-100</posx>
-                    <posy>-100</posy>
+                    <posx>-150</posx>
+                    <posy>-150</posy>
                 </control>
 		
 		<control type="button" id="2007">
                     <description>Spare</description>
-                    <posx>-100</posx>
-                    <posy>-100</posy>
+                    <posx>-150</posx>
+                    <posy>-150</posy>
                 </control>
                 <control type="button" id="3007">
                     <description>Spare</description>
-                    <posx>-100</posx>
-                    <posy>-100</posy>
+                    <posx>-150</posx>
+                    <posy>-150</posy>
                 </control>
 		
 		<control type="button" id="2008">
                     <description>Spare</description>
-                    <posx>-100</posx>
-                    <posy>-100</posy>
+                    <posx>-150</posx>
+                    <posy>-150</posy>
                 </control>
                 <control type="button" id="3008">
                     <description>Spare</description>
-                    <posx>-100</posx>
-                    <posy>-100</posy>
+                    <posx>-150</posx>
+                    <posy>-150</posy>
                 </control>
 		
 		<control type="button" id="2009">
                     <description>Spare</description>
-                    <posx>-100</posx>
-                    <posy>-100</posy>
+                    <posx>-150</posx>
+                    <posy>-150</posy>
                 </control>
                 <control type="button" id="3009">
                     <description>Spare</description>
-                    <posx>-100</posx>
-                    <posy>-100</posy>
+                    <posx>-150</posx>
+                    <posy>-150</posy>
                 </control>
 		
 		<control type="button" id="2010">
                     <description>Spare</description>
-                    <posx>-100</posx>
-                    <posy>-100</posy>
+                    <posx>-150</posx>
+                    <posy>-150</posy>
                 </control>
                 <control type="button" id="3010">
                     <description>Spare</description>
-                    <posx>-100</posx>
-                    <posy>-100</posy>
+                    <posx>-150</posx>
+                    <posy>-150</posy>
                 </control>
 		
 		<control type="button" id="2011">
                     <description>1 Button Standard</description>
-                    <posx>335</posx>
-                    <posy>268</posy>
+                    <posx>317</posx>
+                    <posy>242</posy>
                     <width>41</width>
-                    <height>41</height>                  
+                    <height>39</height>                  
                     <texturenofocus>blank.png</texturenofocus>
                     <texturefocus>xbmc\1.png</texturefocus>
                     <ondown>2014</ondown>
@@ -263,20 +263,20 @@
                 </control>   	
 		<control type="button" id="3011">
                     <description>1 Button Hi-Lite</description>
-                    <posx>335</posx>
-                    <posy>268</posy>
+                    <posx>317</posx>
+                    <posy>242</posy>
                     <width>41</width>
-                    <height>41</height>
+                    <height>39</height>
                     <texturefocus>xbmc\1.png</texturefocus>
                     <texturenofocus>xbmc\1.png</texturenofocus>
                 </control> 
 
                 <control type="button" id="2012">
                     <description>2 Button Standard</description>
-                    <posx>376</posx>
-                    <posy>268</posy>
-                    <width>41</width>
-                    <height>41</height>                  
+                    <posx>358</posx>
+                    <posy>242</posy>
+                    <width>40</width>
+                    <height>39</height>                  
                     <texturenofocus>blank.png</texturenofocus>
                     <texturefocus>xbmc\2.png</texturefocus>
                     <onup>2001</onup>
@@ -286,20 +286,20 @@
                 </control>   	
 		<control type="button" id="3012">
                     <description>2 Button Hi-Lite</description>
-                    <posx>376</posx>
-                    <posy>268</posy>
-                    <width>41</width>
-                    <height>41</height>                    
+                    <posx>358</posx>
+                    <posy>242</posy>
+                    <width>40</width>
+                    <height>39</height>                    
                     <texturefocus>xbmc\2.png</texturefocus>
                     <texturenofocus>xbmc\2.png</texturenofocus>
                 </control>
 
                 <control type="button" id="2013">
                     <description>3 Button Standard</description>
-                    <posx>417</posx>
-                    <posy>268</posy>
+                    <posx>398</posx>
+                    <posy>242</posy>
                     <width>41</width>
-                    <height>41</height>                  
+                    <height>39</height>                  
                     <texturenofocus>blank.png</texturenofocus>
                     <texturefocus>xbmc\3.png</texturefocus>
                     <ondown>2016</ondown>
@@ -308,20 +308,20 @@
                 </control>   	
 		<control type="button" id="3013">
                     <description>3 Button Hi-Lite</description>
-                    <posx>417</posx>
-                    <posy>268</posy>
+                    <posx>398</posx>
+                    <posy>242</posy>
                     <width>41</width>
-                    <height>41</height>                    
+                    <height>39</height>                    
                     <texturefocus>xbmc\3.png</texturefocus>
                     <texturenofocus>xbmc\3.png</texturenofocus>
                 </control>
 
                 <control type="button" id="2014">
                     <description>4 Button Standard</description>
-                    <posx>335</posx>
-                    <posy>309</posy>
+                    <posx>317</posx>
+                    <posy>281</posy>
                     <width>41</width>
-                    <height>41</height>                  
+                    <height>40</height>                  
                     <texturenofocus>blank.png</texturenofocus>
                     <texturefocus>xbmc\4.png</texturefocus>
                     <onup>2011</onup>
@@ -331,20 +331,20 @@
                 </control>   	
 		<control type="button" id="3014">
                     <description>4 Button Hi-Lite</description>
-                    <posx>335</posx>
-                    <posy>309</posy>
+                    <posx>317</posx>
+                    <posy>281</posy>
                     <width>41</width>
-                    <height>41</height>                    
+                    <height>40</height>                    
                     <texturefocus>xbmc\4.png</texturefocus>
                     <texturenofocus>xbmc\4.png</texturenofocus>
                 </control>
 
                 <control type="button" id="2015">
                     <description>5 Button Standard</description>
-                    <posx>376</posx>
-                    <posy>309</posy>
-                    <width>41</width>
-                    <height>41</height>                  
+                    <posx>358</posx>
+                    <posy>281</posy>
+                    <width>40</width>
+                    <height>40</height>                  
                     <texturenofocus>blank.png</texturenofocus>
                     <texturefocus>xbmc\5.png</texturefocus>
                     <onup>2012</onup>
@@ -354,20 +354,20 @@
                 </control>   	
 		<control type="button" id="3015">
                     <description>5 Button Hi-Lite</description>
-                    <posx>376</posx>
-                    <posy>309</posy>
-                    <width>41</width>
-                    <height>41</height>                    
+                    <posx>358</posx>
+                    <posy>281</posy>
+                    <width>40</width>
+                    <height>40</height>                    
                     <texturefocus>xbmc\5.png</texturefocus>
                     <texturenofocus>xbmc\5.png</texturenofocus>
                 </control>
 
                <control type="button" id="2016">
                     <description>6 Button Standard</description>
-                    <posx>417</posx>
-                    <posy>309</posy>
+                    <posx>398</posx>
+                    <posy>281</posy>
                     <width>41</width>
-                    <height>41</height>                  
+                    <height>40</height>                  
                     <texturenofocus>blank.png</texturenofocus>
                     <texturefocus>xbmc\6.png</texturefocus>
                     <onup>2013</onup>
@@ -377,20 +377,20 @@
                 </control>   	
 		<control type="button" id="3016">
                     <description>6 Button Hi-Lite</description>
-                    <posx>417</posx>
-                    <posy>309</posy>
+                    <posx>398</posx>
+                    <posy>281</posy>
                     <width>41</width>
-                    <height>41</height>                    
+                    <height>40</height>                    
                     <texturefocus>xbmc\6.png</texturefocus>
                     <texturenofocus>xbmc\6.png</texturenofocus>
                 </control>
 
                <control type="button" id="2017">
                     <description>7 Button Standard</description>
-                    <posx>335</posx>
-                    <posy>350</posy>
+                    <posx>317</posx>
+                    <posy>321</posy>
                     <width>41</width>
-                    <height>41</height>                  
+                    <height>39</height>                  
                     <texturenofocus>blank.png</texturenofocus>
                     <texturefocus>xbmc\7.png</texturefocus>
                     <onup>2014</onup>
@@ -400,20 +400,20 @@
                 </control>   	
 		<control type="button" id="3017">
                     <description>7 Button Hi-Lite</description>
-                    <posx>335</posx>
-                    <posy>350</posy>
+                    <posx>317</posx>
+                    <posy>321</posy>
                     <width>41</width>
-                    <height>41</height>                    
+                    <height>39</height>                    
                     <texturefocus>xbmc\7.png</texturefocus>
                     <texturenofocus>xbmc\7.png</texturenofocus>
                 </control>
 
                <control type="button" id="2018">
                     <description>8 Button Standard</description>
-                    <posx>376</posx>
-                    <posy>350</posy>
-                    <width>41</width>
-                    <height>41</height>                  
+                    <posx>358</posx>
+                    <posy>321</posy>
+                    <width>40</width>
+                    <height>39</height>                  
                     <texturenofocus>blank.png</texturenofocus>
                     <texturefocus>xbmc\8.png</texturefocus>
                     <onup>2015</onup>
@@ -423,20 +423,20 @@
                 </control>   	
 		<control type="button" id="3018">
                     <description>8 Button Hi-Lite</description>
-                    <posx>376</posx>
-                    <posy>350</posy>
-                    <width>41</width>
-                    <height>41</height>                    
+                    <posx>358</posx>
+                    <posy>321</posy>
+                    <width>40</width>
+                    <height>39</height>                    
                     <texturefocus>xbmc\8.png</texturefocus>
                     <texturenofocus>xbmc\8.png</texturenofocus>
                 </control>
 
                <control type="button" id="2019">
                     <description>9 Button Standard</description>
-                    <posx>417</posx>
-                    <posy>350</posy>
+                    <posx>398</posx>
+                    <posy>321</posy>
                     <width>41</width>
-                    <height>41</height>                  
+                    <height>39</height>                  
                     <texturenofocus>blank.png</texturenofocus>
                     <texturefocus>xbmc\9.png</texturefocus>
                     <onup>2016</onup>
@@ -446,20 +446,20 @@
                 </control>   	
 		<control type="button" id="3019">
                     <description>9 Button Hi-Lite</description>
-                    <posx>417</posx>
-                    <posy>350</posy>
+                    <posx>398</posx>
+                    <posy>321</posy>
                     <width>41</width>
-                    <height>41</height>                    
+                    <height>39</height>                    
                     <texturefocus>xbmc\9.png</texturefocus>
                     <texturenofocus>xbmc\9.png</texturenofocus>
                 </control>
 
                <control type="button" id="2020">
                     <description>0 Button Standard</description>
-                    <posx>377</posx>
-                    <posy>391</posy>
+                    <posx>357</posx>
+                    <posy>360</posy>
                     <width>41</width>
-                    <height>41</height>                  
+                    <height>40</height>                  
                     <texturenofocus>blank.png</texturenofocus>
                     <texturefocus>xbmc\0.png</texturefocus>
                     <onup>2018</onup>
@@ -469,20 +469,20 @@
                 </control>   	
 		<control type="button" id="3020">
                     <description>0 Button Hi-Lite</description>
-                    <posx>377</posx>
-                    <posy>391</posy>
+                    <posx>357</posx>
+                    <posy>360</posy>
                     <width>41</width>
-                    <height>41</height>                    
+                    <height>40</height>                    
                     <texturefocus>xbmc\0.png</texturefocus>
                     <texturenofocus>xbmc\0.png</texturenofocus>
                 </control>
 
                 <control type="button" id="2021">
                     <description>Up Button Standard</description>
-                    <posx>553</posx>
-                    <posy>265</posy>
+                    <posx>534</posx>
+                    <posy>242</posy>
                     <width>41</width>
-                    <height>41</height>
+                    <height>39</height>
                     <texturenofocus>blank.png</texturenofocus>
                     <texturefocus>xbmc\up.png</texturefocus>
                     <onleft>2022</onleft>
@@ -492,20 +492,20 @@
                 </control>   	
 		<control type="button" id="3021">
                     <description>Up Button Hi-Lite</description>
-                    <posx>553</posx>
-                    <posy>265</posy>
+                    <posx>534</posx>
+                    <posy>242</posy>
                     <width>41</width>
-                    <height>41</height>
+                    <height>39</height>
                     <texturefocus>xbmc\up.png</texturefocus>
                     <texturenofocus>xbmc\up.png</texturenofocus>
                 </control> 
 
 		<control type="button" id="2022">
                     <description>Left Button Standard</description>
-                    <posx>512</posx>
-                    <posy>306</posy>
-                    <width>41</width>
-                    <height>41</height>
+                    <posx>493</posx>
+                    <posy>281</posy>
+                    <width>42</width>
+                    <height>40</height>
                     <texturenofocus>blank.png</texturenofocus>
                     <texturefocus>xbmc\left.png</texturefocus>
                     <onright>2025</onright>
@@ -515,20 +515,20 @@
                 </control>   	
 		<control type="button" id="3022">
                     <description>Left Button Hi-Lite</description>
-                    <posx>512</posx>
-                    <posy>306</posy>
-                    <width>41</width>
-                    <height>41</height>
+                    <posx>493</posx>
+                    <posy>281</posy>
+                    <width>42</width>
+                    <height>40</height>
                     <texturefocus>xbmc\left.png</texturefocus>
                     <texturenofocus>xbmc\left.png</texturenofocus>
                 </control>  
 
 		<control type="button" id="2023">
                     <description>Down Button Standard</description>
-                    <posx>553</posx>
-                    <posy>347</posy>
-                    <width>41</width>
-                    <height>41</height>
+                    <posx>535</posx>
+                    <posy>321</posy>
+                    <width>40</width>
+                    <height>38</height>
                     <texturenofocus>blank.png</texturenofocus>
                     <texturefocus>xbmc\down.png</texturefocus>
                     <onup>2025</onup>
@@ -538,20 +538,20 @@
                 </control>   	
 		<control type="button" id="3023">
                     <description>Down Button Hi-Lite</description>
-                    <posx>553</posx>
-                    <posy>347</posy>
-                    <width>41</width>
-                    <height>41</height>
+                    <posx>535</posx>
+                    <posy>321</posy>
+                    <width>40</width>
+                    <height>38</height>
                     <texturefocus>xbmc\down.png</texturefocus>
                     <texturenofocus>xbmc\down.png</texturenofocus>
                 </control>  
 
 		<control type="button" id="2024">
                     <description>Right Button Standard</description>
-                    <posx>594</posx>
-                    <posy>306</posy>
-                    <width>41</width>
-                    <height>41</height>
+                    <posx>575</posx>
+                    <posy>281</posy>
+                    <width>40</width>
+                    <height>40</height>
                     <texturenofocus>blank.png</texturenofocus>
                     <texturefocus>xbmc\right.png</texturefocus>
                     <onleft>2025</onleft>
@@ -561,20 +561,20 @@
                 </control>   	
 		<control type="button" id="3024">
                     <description>Right Button Hi-Lite</description>
-                    <posx>594</posx>
-                    <posy>306</posy>
-                    <width>41</width>
-                    <height>41</height>
+                    <posx>575</posx>
+                    <posy>281</posy>
+                    <width>40</width>
+                    <height>40</height>
                     <texturefocus>xbmc\right.png</texturefocus>
                     <texturenofocus>xbmc\right.png</texturenofocus>
                 </control>  	
 
 		<control type="button" id="2025">
                     <description>Enter Button Standard</description>
-                    <posx>553</posx>
-                    <posy>306</posy>
-                    <width>41</width>
-                    <height>41</height>
+                    <posx>535</posx>
+                    <posy>281</posy>
+                    <width>40</width>
+                    <height>40</height>
                     <texturenofocus>blank.png</texturenofocus>
                     <texturefocus>xbmc\enter.png</texturefocus>
                     <onup>2021</onup>
@@ -584,20 +584,20 @@
                 </control>   	
 		<control type="button" id="3025">
                     <description>Enter Button Hi-Lite</description>
-                    <posx>553</posx>
-                    <posy>306</posy>
-                    <width>41</width>
-                    <height>41</height>
+                    <posx>535</posx>
+                    <posy>281</posy>
+                    <width>40</width>
+                    <height>40</height>
                     <texturefocus>xbmc\enter.png</texturefocus>
                     <texturenofocus>xbmc\enter.png</texturenofocus>
                 </control>
 
 		<control type="button" id="2026">
                     <description>Back Button Standard</description>
-                    <posx>594</posx>
-                    <posy>347</posy>
-                    <width>41</width>
-                    <height>41</height>
+                    <posx>575</posx>
+                    <posy>321</posy>
+                    <width>40</width>
+                    <height>38</height>
                     <texturenofocus>blank.png</texturenofocus>
                     <texturefocus>xbmc\back.png</texturefocus>
                     <onup>2024</onup>
@@ -607,20 +607,20 @@
                 </control>   	
 		<control type="button" id="3026">
                     <description>Back Button Hi-Lite</description>
-                    <posx>594</posx>
-                    <posy>347</posy>
-                    <width>41</width>
-                    <height>41</height>
+                    <posx>575</posx>
+                    <posy>321</posy>
+                    <width>40</width>
+                    <height>38</height>
                     <texturefocus>xbmc\back.png</texturefocus>
                     <texturenofocus>xbmc\back.png</texturenofocus>
                 </control>
 
                 <control type="button" id="2027">
                     <description>Mute Button Standard</description>
-                    <posx>695</posx>
-                    <posy>266</posy>
+                    <posx>673</posx>
+                    <posy>242</posy>
                     <width>41</width>
-                    <height>40</height>
+                    <height>39</height>
                     <texturenofocus>blank.png</texturenofocus>
                     <texturefocus>xbmc\mute.png</texturefocus>
                     <onup>2039</onup>
@@ -630,20 +630,20 @@
                 </control>   	
 		<control type="button" id="3027">
                     <description>Mute Button Hi-Lite</description>
-                    <posx>695</posx>
-                    <posy>266</posy>
+                    <posx>673</posx>
+                    <posy>242</posy>
                     <width>41</width>
-                    <height>40</height>
+                    <height>39</height>
                     <texturefocus>xbmc\mute.png</texturefocus>
                     <texturenofocus>xbmc\mute.png</texturenofocus>
                 </control> 
 
                 <control type="button" id="2028">
                     <description>Volume Down Button Standard</description>
-                    <posx>736</posx>
-                    <posy>266</posy>
-                    <width>42</width>
-                    <height>40</height>
+                    <posx>714</posx>
+                    <posy>242</posy>
+                    <width>40</width>
+                    <height>39</height>
                     <texturenofocus>blank.png</texturenofocus>
                     <texturefocus>xbmc\volumeDown.png</texturefocus>
                     <onup>2040</onup>
@@ -653,20 +653,20 @@
                 </control>   	
 		<control type="button" id="3028">
                     <description>Volume Down Button Hi-Lite</description>
-                    <posx>736</posx>
-                    <posy>266</posy>
-                    <width>42</width>
-                    <height>40</height>
+                    <posx>714</posx>
+                    <posy>242</posy>
+                    <width>40</width>
+                    <height>39</height>
                     <texturefocus>xbmc\volumeDown.png</texturefocus>
                     <texturenofocus>xbmc\volumeDown.png</texturenofocus>
                 </control> 
 
                 <control type="button" id="2029">
                     <description>Volume Up Button Standard</description>
-                    <posx>778</posx>
-                    <posy>266</posy>
+                    <posx>754</posx>
+                    <posy>242</posy>
                     <width>41</width>
-                    <height>40</height>
+                    <height>39</height>
                     <texturenofocus>blank.png</texturenofocus>
                     <texturefocus>xbmc\volumeUp.png</texturefocus>
                     <onup>2041</onup>
@@ -676,20 +676,20 @@
                 </control>   	
 		<control type="button" id="3029">
                     <description>Volume Up Button Hi-Lite</description>
-                    <posx>778</posx>
-                    <posy>266</posy>
+                    <posx>754</posx>
+                    <posy>242</posy>
                     <width>41</width>
-                    <height>40</height>
+                    <height>39</height>
                     <texturefocus>xbmc\volumeUp.png</texturefocus>
                     <texturenofocus>xbmc\volumeUp.png</texturenofocus>
                 </control> 
 
                 <control type="button" id="2030">
                     <description>Fullscreen Button Standard</description>
-                    <posx>819</posx>
-                    <posy>266</posy>
-                    <width>42</width>
-                    <height>40</height>
+                    <posx>795</posx>
+                    <posy>242</posy>
+                    <width>40</width>
+                    <height>39</height>
                     <texturenofocus>blank.png</texturenofocus>
                     <texturefocus>xbmc\fullscreen.png</texturefocus>
                     <onup>2035</onup>
@@ -699,20 +699,20 @@
                 </control>   	
 		<control type="button" id="3030">
                     <description>Fullscreen Button Hi-Lite</description>
-                    <posx>819</posx>
-                    <posy>266</posy>
-                    <width>42</width>
-                    <height>40</height>
+                    <posx>795</posx>
+                    <posy>242</posy>
+                    <width>40</width>
+                    <height>39</height>
                     <texturefocus>xbmc\fullscreen.png</texturefocus>
                     <texturenofocus>xbmc\fullscreen.png</texturenofocus>
                 </control> 
 
                 <control type="button" id="2031">
                     <description>Subtitle Button Standard</description>
-                    <posx>861</posx>
-                    <posy>266</posy>
-                    <width>42</width>
-                    <height>40</height>
+                    <posx>835</posx>
+                    <posy>242</posy>
+                    <width>41</width>
+                    <height>39</height>
                     <texturenofocus>blank.png</texturenofocus>
                     <texturefocus>xbmc\subtitle.png</texturefocus>
                     <onup>2036</onup>
@@ -722,20 +722,20 @@
                 </control>   	
 		<control type="button" id="3031">
                     <description>Subtitle Button Hi-Lite</description>
-                    <posx>861</posx>
-                    <posy>266</posy>
-                    <width>42</width>
-                    <height>40</height>
+                    <posx>835</posx>
+                    <posy>242</posy>
+                    <width>41</width>
+                    <height>39</height>
                     <texturefocus>xbmc\subtitle.png</texturefocus>
                     <texturenofocus>xbmc\subtitle.png</texturenofocus>
                 </control> 
 
                 <control type="button" id="2032">
                     <description>Play Button Standard</description>
-                    <posx>695</posx>
-                    <posy>306</posy>
+                    <posx>673</posx>
+                    <posy>281</posy>
                     <width>41</width>
-                    <height>40</height>
+                    <height>39</height>
                     <texturenofocus>blank.png</texturenofocus>
                     <texturefocus>xbmc\play.png</texturefocus>
                     <onup>2027</onup>
@@ -745,20 +745,20 @@
                 </control>   	
 		<control type="button" id="3032">
                     <description>Play Button Hi-Lite</description>
-                    <posx>695</posx>
-                    <posy>306</posy>
+                    <posx>673</posx>
+                    <posy>281</posy>
                     <width>41</width>
-                    <height>40</height>
+                    <height>39</height>
                     <texturefocus>xbmc\play.png</texturefocus>
                     <texturenofocus>xbmc\play.png</texturenofocus>
                 </control>
 
                 <control type="button" id="2033">
                     <description>Pause Button Standard</description>
-                    <posx>736</posx>
-                    <posy>306</posy>
-                    <width>42</width>
-                    <height>40</height>
+                    <posx>714</posx>
+                    <posy>281</posy>
+                    <width>40</width>
+                    <height>39</height>
                     <texturenofocus>blank.png</texturenofocus>
                     <texturefocus>xbmc\pause.png</texturefocus>
                     <onup>2028</onup>
@@ -768,20 +768,20 @@
                 </control>   	
 		<control type="button" id="3033">
                     <description>Pause Button Hi-Lite</description>
-                    <posx>736</posx>
-                    <posy>306</posy>
-                    <width>42</width>
-                    <height>40</height>
+                    <posx>714</posx>
+                    <posy>281</posy>
+                    <width>40</width>
+                    <height>39</height>
                     <texturefocus>xbmc\pause.png</texturefocus>
                     <texturenofocus>xbmc\pause.png</texturenofocus>
                 </control>
 
                 <control type="button" id="2034">
                     <description>Stop Button Standard</description>
-                    <posx>778</posx>
-                    <posy>306</posy>
+                    <posx>754</posx>
+                    <posy>281</posy>
                     <width>41</width>
-                    <height>40</height>
+                    <height>39</height>
                     <texturenofocus>blank.png</texturenofocus>
                     <texturefocus>xbmc\stop.png</texturefocus>
                     <onup>2029</onup>
@@ -791,19 +791,19 @@
                 </control>   	
 		<control type="button" id="3034">
                     <description>Stop Button Hi-Lite</description>
-                    <posx>778</posx>
-                    <posy>306</posy>
+                    <posx>754</posx>
+                    <posy>281</posy>
                     <width>41</width>
-                    <height>40</height>
+                    <height>39</height>
                     <texturefocus>xbmc\stop.png</texturefocus>
                     <texturenofocus>xbmc\stop.png</texturenofocus>
                 </control>
 
                 <control type="button" id="2035">
                     <description>Rewind Button Standard</description>
-                    <posx>819</posx>
-                    <posy>306</posy>
-                    <width>42</width>
+                    <posx>795</posx>
+                    <posy>281</posy>
+                    <width>40</width>
                     <height>40</height>
                     <texturenofocus>blank.png</texturenofocus>
                     <texturefocus>xbmc\rewind.png</texturefocus>
@@ -814,9 +814,9 @@
                 </control>   	
 		<control type="button" id="3035">
                     <description>Rewind Button Hi-Lite</description>
-                    <posx>819</posx>
-                    <posy>306</posy>
-                    <width>42</width>
+                    <posx>795</posx>
+                    <posy>281</posy>
+                    <width>40</width>
                     <height>40</height>
                     <texturefocus>xbmc\rewind.png</texturefocus>
                     <texturenofocus>xbmc\rewind.png</texturenofocus>
@@ -824,9 +824,9 @@
 
                 <control type="button" id="2036">
                     <description>Forward Button Standard</description>
-                    <posx>861</posx>
-                    <posy>306</posy>
-                    <width>42</width>
+                    <posx>835</posx>
+                    <posy>281</posy>
+                    <width>41</width>
                     <height>40</height>
                     <texturenofocus>blank.png</texturenofocus>
                     <texturefocus>xbmc\forward.png</texturefocus>
@@ -837,9 +837,9 @@
                 </control>   	
 		<control type="button" id="3036">
                     <description>Forward Button Hi-Lite</description>
-                    <posx>861</posx>
-                    <posy>306</posy>
-                    <width>42</width>
+                    <posx>835</posx>
+                    <posy>281</posy>
+                    <width>41</width>
                     <height>40</height>
                     <texturefocus>xbmc\forward.png</texturefocus>
                     <texturenofocus>xbmc\forward.png</texturenofocus>
@@ -847,9 +847,9 @@
 
                 <control type="button" id="2037">
                     <description>Previous Button Standard</description>
-                    <posx>903</posx>
-                    <posy>306</posy>
-                    <width>42</width>
+                    <posx>876</posx>
+                    <posy>281</posy>
+                    <width>41</width>
                     <height>40</height>
                     <texturenofocus>blank.png</texturenofocus>
                     <texturefocus>xbmc\previous.png</texturefocus>
@@ -860,9 +860,9 @@
                 </control>   	
 		<control type="button" id="3037">
                     <description>Previous Button Hi-Lite</description>
-                    <posx>903</posx>
-                    <posy>306</posy>
-                    <width>42</width>
+                    <posx>876</posx>
+                    <posy>281</posy>
+                    <width>41</width>
                     <height>40</height>
                     <texturefocus>xbmc\previous.png</texturefocus>
                     <texturenofocus>xbmc\previous.png</texturenofocus>
@@ -870,9 +870,9 @@
 
                 <control type="button" id="2038">
                     <description>Next Button Standard</description>
-                    <posx>945</posx>
-                    <posy>306</posy>
-                    <width>42</width>
+                    <posx>917</posx>
+                    <posy>281</posy>
+                    <width>40</width>
                     <height>40</height>
                     <texturenofocus>blank.png</texturenofocus>
                     <texturefocus>xbmc\next.png</texturefocus>
@@ -883,9 +883,9 @@
                 </control>   	
 		<control type="button" id="3038">
                     <description>Next Button Hi-Lite</description>
-                    <posx>945</posx>
-                    <posy>306</posy>
-                    <width>42</width>
+                    <posx>917</posx>
+                    <posy>281</posy>
+                    <width>40</width>
                     <height>40</height>
                     <texturefocus>xbmc\next.png</texturefocus>
                     <texturenofocus>xbmc\next.png</texturenofocus>
@@ -893,10 +893,10 @@
 
                 <control type="button" id="2039">
                     <description>Power Button Standard</description>
-                    <posx>695</posx>
-                    <posy>346</posy>
+                    <posx>673</posx>
+                    <posy>320</posy>
                     <width>41</width>
-                    <height>41</height>
+                    <height>40</height>
                     <texturenofocus>blank.png</texturenofocus>
                     <texturefocus>xbmc\power.png</texturefocus>
                     <onup>2032</onup>
@@ -906,20 +906,20 @@
                 </control>   	
 		<control type="button" id="3039">
                     <description>Power Button Hi-Lite</description>
-                    <posx>695</posx>
-                    <posy>346</posy>
+                    <posx>673</posx>
+                    <posy>320</posy>
                     <width>41</width>
-                    <height>41</height>
+                    <height>40</height>
                     <texturefocus>xbmc\power.png</texturefocus>
                     <texturenofocus>xbmc\power.png</texturenofocus>
                 </control>
 
                 <control type="button" id="2040">
                     <description>Info Button Standard</description>
-                    <posx>736</posx>
-                    <posy>346</posy>
-                    <width>42</width>
-                    <height>41</height>
+                    <posx>714</posx>
+                    <posy>320</posy>
+                    <width>40</width>
+                    <height>40</height>
                     <texturenofocus>blank.png</texturenofocus>
                     <texturefocus>xbmc\info.png</texturefocus>
                     <onup>2033</onup>
@@ -929,20 +929,20 @@
                 </control>   	
 		<control type="button" id="3040">
                     <description>Info Button Hi-Lite</description>
-                    <posx>736</posx>
-                    <posy>346</posy>
-                    <width>42</width>
-                    <height>41</height>
+                    <posx>714</posx>
+                    <posy>320</posy>
+                    <width>40</width>
+                    <height>40</height>
                     <texturefocus>xbmc\info.png</texturefocus>
                     <texturenofocus>xbmc\info.png</texturenofocus>
                 </control>
 
                 <control type="button" id="2041">
                     <description>CPU Button Standard</description>
-                    <posx>777</posx>
-                    <posy>346</posy>
-                    <width>42</width>
-                    <height>41</height>
+                    <posx>754</posx>
+                    <posy>320</posy>
+                    <width>41</width>
+                    <height>40</height>
                     <texturenofocus>blank.png</texturenofocus>
                     <texturefocus>xbmc\cpu.png</texturefocus>
                     <onup>2034</onup>
@@ -952,20 +952,20 @@
                 </control>   	
 		<control type="button" id="3041">
                     <description>CPU Button Hi-Lite</description>
-                    <posx>777</posx>
-                    <posy>346</posy>
-                    <width>42</width>
-                    <height>41</height>
+                    <posx>754</posx>
+                    <posy>320</posy>
+                    <width>41</width>
+                    <height>40</height>
                     <texturefocus>xbmc\cpu.png</texturefocus>
                     <texturenofocus>xbmc\cpu.png</texturenofocus>
                 </control>
 
                 <control type="button" id="2042">
                     <description>Home Button Standard</description>
-                    <posx>511</posx>
-                    <posy>348</posy>
+                    <posx>493</posx>
+                    <posy>321</posy>
                     <width>42</width>
-                    <height>39</height>
+                    <height>38</height>
                     <texturenofocus>blank.png</texturenofocus>
                     <texturefocus>xbmc\home.png</texturefocus>
                     <onup>2022</onup>
@@ -975,64 +975,64 @@
                 </control>   	
 		<control type="button" id="3042">
                     <description>Home Button Hi-Lite</description>
-                    <posx>511</posx>
-                    <posy>348</posy>
+                    <posx>493</posx>
+                    <posy>321</posy>
                     <width>42</width>
-                    <height>39</height>
+                    <height>38</height>
                     <texturefocus>xbmc\home.png</texturefocus>
                     <texturenofocus>xbmc\home.png</texturenofocus>
                 </control>
 
                 <control type="button" id="2043">
-                    <description>Previous Track Button Standard</description>
-                    <posx>903</posx>
-                    <posy>267</posy>
-                    <width>42</width>
+                    <description>Previous Chapter Button Standard</description>
+                    <posx>876</posx>
+                    <posy>242</posy>
+                    <width>41</width>
                     <height>39</height>
                     <texturenofocus>blank.png</texturenofocus>
-                    <texturefocus>xbmc\prevTrack.png</texturefocus>
+                    <texturefocus>xbmc\prevChapter.png</texturefocus>
                     <onup>2037</onup>
                     <ondown>2037</ondown>
                     <onleft>2031</onleft>
                     <onright>2044</onright>
                 </control>   	
 		<control type="button" id="3043">
-                    <description>Previous Track Button Hi-Lite</description>
-                    <posx>903</posx>
-                    <posy>267</posy>
-                    <width>42</width>
+                    <description>Previous Chapter Button Hi-Lite</description>
+                    <posx>876</posx>
+                    <posy>242</posy>
+                    <width>41</width>
                     <height>39</height>
-                    <texturefocus>xbmc\prevTrack.png</texturefocus>
-                    <texturenofocus>xbmc\prevTrack.png</texturenofocus>
+                    <texturenofocus>xbmc\prevChapter.png</texturenofocus>
+                    <texturefocus>xbmc\prevChapter.png</texturefocus>
                 </control>
 
                 <control type="button" id="2044">
-                    <description>Next Track Button Standard</description>
-                    <posx>945</posx>
-                    <posy>267</posy>
+                    <description>Next Chapter Button Standard</description>
+                    <posx>917</posx>
+                    <posy>242</posy>
                     <width>40</width>
-                    <height>38</height>
+                    <height>39</height>
                     <texturenofocus>blank.png</texturenofocus>
-                    <texturefocus>xbmc\nextTrack.png</texturefocus>
+                    <texturefocus>xbmc\nextChapter.png</texturefocus>
                     <onup>2038</onup>
                     <ondown>2038</ondown>
                     <onleft>2043</onleft>
                     <onright>2032</onright>
                 </control>   	
 		<control type="button" id="3044">
-                    <description>Next Track Button Hi-Lite</description>
-                    <posx>945</posx>
-                    <posy>267</posy>
+                    <description>Next Chapter Button Hi-Lite</description>
+                    <posx>917</posx>
+                    <posy>242</posy>
                     <width>40</width>
-                    <height>38</height>
-                    <texturefocus>xbmc\nextTrack.png</texturefocus>
-                    <texturenofocus>xbmc\nextTrack.png</texturenofocus>
+                    <height>39</height>
+                    <texturefocus>xbmc\nextChapter.png</texturefocus>
+                    <texturenofocus>xbmc\nextChapter.png</texturenofocus>
                 </control>
 
             <control type="label" id="200">
                 <description>Information Box</description>
-                <posx>300</posx>
-                <posy>645</posy>
+                <posx>280</posx>
+                <posy>650</posy>
                 <font>font30</font>
                 <width>710</width>
                 <height>75</height>
@@ -1041,8 +1041,8 @@
             </control> 	
             <control type="label" id="300">
                 <description>Firmware Version</description>
-                <posx>172</posx>
-                <posy>590</posy>
+                <posx>10</posx>
+                <posy>690</posy>
                 <font>font13</font>
                 <width>500</width>
                 <height>30</height>

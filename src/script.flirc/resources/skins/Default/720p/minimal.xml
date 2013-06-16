@@ -25,7 +25,7 @@
                    <visible>true</visible>
                    <control type="button" id="105">
                        <description>Switch Controller</description>
-                       <label>$ADDON[script.flirc 105]</label>
+                       <label>$ADDON[script.flirc 1105]</label>
                        <posx>0</posx>
                        <posy>0</posy>
                        <width>200</width>
@@ -101,16 +101,16 @@
 
 		<control type="button" id="1000">
                     <description>Hidden control used to lose focus from keyboard</description>
-                    <posx>-100</posx>
-                    <posy>-100</posy>
+                    <posx>-150</posx>
+                    <posy>-150</posy>
                 </control>
 
 		<control type="button" id="1001">
                     <description>Erase Button Standard</description>
-                    <posx>154</posx>
-                    <posy>632</posy>
-                    <width>114</width>
-                    <height>78</height>                   
+                    <posx>142</posx>
+                    <posy>511</posy>
+                    <width>163</width>
+                    <height>107</height>                   
                     <texturenofocus>blank.png</texturenofocus>
                     <texturefocus>erase.png</texturefocus>
                     <onup>1003</onup>
@@ -120,34 +120,34 @@
                 </control>   	
 		<control type="button" id="2001">
                     <description>Erase Button Hi-Lite</description>
-                    <posx>154</posx>
-                    <posy>632</posy>
-                    <width>114</width>
-                    <height>78</height>                   
+                    <posx>142</posx>
+                    <posy>511</posy>
+                    <width>163</width>
+                    <height>107</height>                   
                     <texturefocus>erase.png</texturefocus>
                     <texturenofocus>erase.png</texturenofocus>
                 </control>
 		<control type="button" id="2002">
                     <description>Stop-Erase Button</description>
-                    <posx>154</posx>
-                    <posy>632</posy>
-                    <width>114</width>
-                    <height>78</height>                   
-                    <texturenofocus>stop-erase.png</texturenofocus>
-                    <texturefocus>stop-erase.png</texturefocus>
+                    <posx>142</posx>
+                    <posy>511</posy>
+                    <width>163</width>
+                    <height>107</height>                   
+                    <texturenofocus>stop.png</texturenofocus>
+                    <texturefocus>stop.png</texturefocus>
                 </control>
 		<control type="button" id="1002">
                     <description>Spare</description>
-                    <posx>-100</posx>
-                    <posy>-100</posy>
+                    <posx>-150</posx>
+                    <posy>-150</posy>
                 </control>
 
 		<control type="button" id="1003">
                     <description>Go Button Standard</description>
-                    <posx>1023</posx>
-                    <posy>520</posy>
-                    <width>103</width>
-                    <height>79</height>                   
+                    <posx>976</posx>
+                    <posy>511</posy>
+                    <width>163</width>
+                    <height>107</height>                   
                     <texturenofocus>blank.png</texturenofocus>
                     <texturefocus>go.png</texturefocus>
                     <onup>1016</onup>
@@ -156,104 +156,104 @@
                 </control>   	
 		<control type="button" id="2003">
                     <description>Go Button Hi-Lite</description>
-                    <posx>1023</posx>
-                    <posy>520</posy>
-                    <width>103</width>
-                    <height>79</height>
+                    <posx>976</posx>
+                    <posy>511</posy>
+                    <width>163</width>
+                    <height>107</height>
                     <texturefocus>go.png</texturefocus>
                     <texturenofocus>go.png</texturenofocus>
                 </control>
 
 		<control type="button" id="2004">
                     <description>Stop-Go Button</description>
-                    <posx>1023</posx>
-                    <posy>520</posy>
-                    <width>103</width>
-                    <height>79</height>
-                    <texturenofocus>stop-go.png</texturenofocus>
-                    <texturefocus>stop-go.png</texturefocus>
+                    <posx>976</posx>
+                    <posy>511</posy>
+                    <width>163</width>
+                    <height>107</height>
+                    <texturenofocus>stop.png</texturenofocus>
+                    <texturefocus>stop.png</texturefocus>
                 </control>
 		<control type="button" id="1004">
                     <description>Spare</description>
-                    <posx>-100</posx>
-                    <posy>-100</posy>
+                    <posx>-150</posx>
+                    <posy>-150</posy>
                 </control>
 
 		<control type="image" id="1005">
                     <description>Connected Image</description>
-                    <posx>1033</posx>
-                    <posy>634</posy>
-                    <width>98</width>
-                    <height>66</height> 
+                    <posx>1007</posx>
+                    <posy>631</posy>
+                    <width>121</width>
+                    <height>84</height> 
                     <texture>connected.png</texture>                  
                 </control>                
                 <control type="button" id="2005">
                     <description>Spare</description>
-                    <posx>-100</posx>
-                    <posy>-100</posy>
+                    <posx>-150</posx>
+                    <posy>-150</posy>
                 </control>
 		
 		<control type="button" id="1006">
                     <description>Spare</description>
-                    <posx>-100</posx>
-                    <posy>-100</posy>
+                    <posx>-150</posx>
+                    <posy>-150</posy>
                 </control>
                 <control type="button" id="2006">
                     <description>Spare</description>
-                    <posx>-100</posx>
-                    <posy>-100</posy>
+                    <posx>-150</posx>
+                    <posy>-150</posy>
                 </control>
 		
 		<control type="button" id="1007">
                     <description>Spare</description>
-                    <posx>-100</posx>
-                    <posy>-100</posy>
+                    <posx>-150</posx>
+                    <posy>-150</posy>
                 </control>
                 <control type="button" id="2007">
                     <description>Spare</description>
-                    <posx>-100</posx>
-                    <posy>-100</posy>
+                    <posx>-150</posx>
+                    <posy>-150</posy>
                 </control>
 		
 		<control type="button" id="1008">
                     <description>Spare</description>
-                    <posx>-100</posx>
-                    <posy>-100</posy>
+                    <posx>-150</posx>
+                    <posy>-150</posy>
                 </control>
                 <control type="button" id="2008">
                     <description>Spare</description>
-                    <posx>-100</posx>
-                    <posy>-100</posy>
+                    <posx>-150</posx>
+                    <posy>-150</posy>
                 </control>
 		
 		<control type="button" id="1009">
                     <description>Spare</description>
-                    <posx>-100</posx>
-                    <posy>-100</posy>
+                    <posx>-150</posx>
+                    <posy>-150</posy>
                 </control>
                 <control type="button" id="2009">
                     <description>Spare</description>
-                    <posx>-100</posx>
-                    <posy>-100</posy>
+                    <posx>-150</posx>
+                    <posy>-150</posy>
                 </control>
 		
 		<control type="button" id="1010">
                     <description>Spare</description>
-                    <posx>-100</posx>
-                    <posy>-100</posy>
+                    <posx>-150</posx>
+                    <posy>-150</posy>
                 </control>
                 <control type="button" id="2010">
                     <description>Spare</description>
-                    <posx>-100</posx>
-                    <posy>-100</posy>
+                    <posx>-150</posx>
+                    <posy>-150</posy>
                 </control>
 		
 		<control type="button" id="1011">
                     <description>Up Button Standard</description>
-                    <posx>583</posx>
-                    <posy>232</posy>
-                    <width>102</width>
-                    <height>64</height>                  
+                    <posx>570</posx>
+                    <posy>190</posy>
+                    <width>132</width>
+                    <height>83</height>                  
                     <texturenofocus>blank.png</texturenofocus>
                     <texturefocus>minimal\up.png</texturefocus>
                     <ondown>1015</ondown>
@@ -263,20 +263,20 @@
                 </control>   	
 		<control type="button" id="2011">
                     <description>Up Button Hi-Lite</description>
-                    <posx>583</posx>
-                    <posy>232</posy>
-                    <width>102</width>
-                    <height>64</height>                    
+                    <posx>570</posx>
+                    <posy>190</posy>
+                    <width>132</width>
+                    <height>83</height>                    
                     <texturefocus>minimal\up.png</texturefocus>
                     <texturenofocus>minimal\up.png</texturenofocus>
                 </control> 
 
 		<control type="button" id="1012">
                     <description>Left Button Standard</description>
-                    <posx>467</posx>
-                    <posy>296</posy>
-                    <width>101</width>
-                    <height>83</height>                    
+                    <posx>427</posx>
+                    <posy>271</posy>
+                    <width>129</width>
+                    <height>106</height>                    
                     <texturenofocus>blank.png</texturenofocus>
                     <texturefocus>minimal\left.png</texturefocus>
                     <onright>1015</onright>
@@ -284,20 +284,20 @@
                 </control>   	
 		<control type="button" id="2012">
                     <description>Left Button Hi-Lite</description>
-                    <posx>467</posx>
-                    <posy>296</posy>
-                    <width>101</width>
-                    <height>83</height>                   
+                    <posx>427</posx>
+                    <posy>271</posy>
+                    <width>129</width>
+                    <height>106</height>                   
                     <texturefocus>minimal\left.png</texturefocus>
                     <texturenofocus>minimal\left.png</texturenofocus>
                 </control>  
 
 		<control type="button" id="1013">
                     <description>Down Button Standard</description>
-                    <posx>569</posx>
+                    <posx>552</posx>
                     <posy>383</posy>
-                    <width>131</width>
-                    <height>81</height>                   
+                    <width>169</width>
+                    <height>101</height>                   
                     <texturenofocus>blank.png</texturenofocus>
                     <texturefocus>minimal\down.png</texturefocus>
                     <onup>1015</onup>
@@ -307,20 +307,20 @@
                 </control>   	
 		<control type="button" id="2013">
                     <description>Down Button Hi-Lite</description>
-                    <posx>569</posx>
+                    <posx>552</posx>
                     <posy>383</posy>
-                    <width>131</width>
-                    <height>81</height>                   
+                    <width>169</width>
+                    <height>101</height>                   
                     <texturefocus>minimal\down.png</texturefocus>
                     <texturenofocus>minimal\down.png</texturenofocus>
                 </control>  
 
 		<control type="button" id="1014">
                     <description>Right Button Standard</description>
-                    <posx>706</posx>
-                    <posy>295</posy>
-                    <width>99</width>
-                    <height>84</height>                   
+                    <posx>721</posx>
+                    <posy>271</posy>
+                    <width>129</width>
+                    <height>107</height>                   
                     <texturenofocus>blank.png</texturenofocus>
                     <texturefocus>minimal\right.png</texturefocus>
                     <onleft>1015</onleft>
@@ -328,20 +328,20 @@
                 </control>   	
 		<control type="button" id="2014">
                     <description>Right Button Hi-Lite</description>
-                    <posx>706</posx>
-                    <posy>295</posy>
-                    <width>99</width>
-                    <height>84</height>                   
+                    <posx>721</posx>
+                    <posy>271</posy>
+                    <width>129</width>
+                    <height>107</height>                   
                     <texturefocus>minimal\right.png</texturefocus>
                     <texturenofocus>minimal\right.png</texturenofocus>
                 </control>  	
 
 		<control type="button" id="1015">
                     <description>Enter Button Standard</description>
-                    <posx>576</posx>
-                    <posy>297</posy>
-                    <width>121</width>
-                    <height>87</height>                    
+                    <posx>556</posx>
+                    <posy>273</posy>
+                    <width>165</width>
+                    <height>110</height>                    
                     <texturenofocus>blank.png</texturenofocus>
                     <texturefocus>minimal\enter.png</texturefocus>
                     <onup>1011</onup>
@@ -351,20 +351,20 @@
                 </control>   	
 		<control type="button" id="2015">
                     <description>Enter Button Hi-Lite</description>
-                    <posx>576</posx>
-                    <posy>297</posy>
-                    <width>121</width>
-                    <height>87</height>                   
+                    <posx>556</posx>
+                    <posy>273</posy>
+                    <width>165</width>
+                    <height>110</height>                   
                     <texturefocus>minimal\enter.png</texturefocus>
                     <texturenofocus>minimal\enter.png</texturenofocus>
                 </control>
 
 		<control type="button" id="1016">
                     <description>Back Button Standard</description>
-                    <posx>559</posx>
-                    <posy>485</posy>
-                    <width>155</width>
-                    <height>76</height>                  
+                    <posx>541</posx>
+                    <posy>506</posy>
+                    <width>195</width>
+                    <height>99</height>                  
                     <texturenofocus>blank.png</texturenofocus>
                     <texturefocus>minimal\back.png</texturefocus>
                     <onup>1013</onup>
@@ -374,18 +374,18 @@
                 </control>   	
 		<control type="button" id="2016">
                     <description>Back Button Hi-Lite</description>
-                    <posx>559</posx>
-                    <posy>485</posy>
-                    <width>155</width>
-                    <height>76</height>                
+                    <posx>541</posx>
+                    <posy>506</posy>
+                    <width>195</width>
+                    <height>99</height>                
                     <texturefocus>minimal\back.png</texturefocus>
                     <texturenofocus>minimal\back.png</texturenofocus>
                 </control>
 		
             <control type="label" id="200">
                 <description>Information Box</description>
-                <posx>300</posx>
-                <posy>645</posy>
+                <posx>280</posx>
+                <posy>650</posy>
                 <font>font30</font>
                 <width>710</width>
                 <height>75</height>
@@ -394,8 +394,8 @@
             </control> 	
             <control type="label" id="300">
                 <description>Firmware Version</description>
-                <posx>172</posx>
-                <posy>590</posy>
+                <posx>10</posx>
+                <posy>690</posy>
                 <font>font13</font>
                 <width>500</width>
                 <height>30</height>
