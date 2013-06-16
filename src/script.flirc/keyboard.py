@@ -46,7 +46,6 @@ LOAD        = 107
 CLEAR       = 108
 UPGRADE     = 109
 
-
 # -----------------------------------------------------------------------------------------
 
 
@@ -151,6 +150,9 @@ class Keyboard(xbmcgui.WindowXML):
         
         if controlId > self.buttonMax:
             controlId -= 1000  
+
+        if controlId == SWITCH:
+            controlId += self.style
   
         self.setInfoBox(utils.getString(controlId))
 
@@ -389,17 +391,18 @@ class Keyboard(xbmcgui.WindowXML):
 
 
     def erase(self):
-        self.hideAll()
+        self.showOnly(self.style + ERASE)
 
-        if self.flirc.version > 1:
-            self.getControl(self.style + ERASE_STOP + 1000).setVisible(True)
+        #Not implemented yet
+        #if self.flirc.version > 1:
+        #    self.getControl(self.style + ERASE_STOP + 1000).setVisible(True)
 
         self.freeRemote()
-        self.setInfoBox(utils.getString(self.style + ERASE_STOP))
+        self.timerOff()
 
         self.lockInfobox = True
-
-        self.timerOff()
+        self.setInfoBox(utils.getString(self.style + ERASE_STOP))
+        
         response = self.flirc.erase()
         self.timerOn()        
         
@@ -526,8 +529,9 @@ class Keyboard(xbmcgui.WindowXML):
         self.hideAll()
         self.getControl(controlId+1000).setVisible(True)
 
+        #Not implemented yet
         #if self.autoModeOn and self.flirc.version > 1: 
-        self.getControl(self.style + GO_STOP + 1000).setVisible(True)
+        #    self.getControl(self.style + GO_STOP + 1000).setVisible(True)
 
 
     def hideAll(self):
