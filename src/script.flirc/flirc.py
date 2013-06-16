@@ -166,9 +166,9 @@ class Flirc(object):
 
 
     def checkResponse(self, response):
-        if not self.checkConnect():
-            return utils.NO_LIBRARY
-
+        if response == -ETIMEOUT:
+            return utils.TIMED_OUT
+        
         if response == -ENODEV:
             return utils.NO_FLIRC
 
@@ -186,6 +186,10 @@ class Flirc(object):
 
         if response == -EINVAL:
             return utils.INVALID
+
+        if not self.checkConnect():
+            return utils.NO_LIBRARY
+
 
         return utils.FLIRC_OK
 
