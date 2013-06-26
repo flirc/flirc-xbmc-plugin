@@ -7,8 +7,8 @@
     <string id="2">Okay</string>
     <string id="3">Cancel</string>
     <string id="4">Canceled</string>
-    <string id="5">Flirc libraries not found</string>
-    <string id="6">Please re-install addon</string>
+    <string id="5">The FLIRC addon is not designed to run on your hardware</string>
+    <string id="6">Please contact support@flirc.tv</string>
 
     <string id="7">Are you sure you want to remove all saved data?</string>
     <string id="8">This will remove all saved remote keys</string>
