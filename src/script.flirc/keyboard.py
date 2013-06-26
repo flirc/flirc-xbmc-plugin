@@ -206,7 +206,7 @@ class Keyboard(xbmcgui.WindowXML):
         self.autoModeOn = True
 
         self.timerOff()
-        self.flirc.format()
+        #self.flirc.format()
 
         for i in range(self.buttonMin+10, self.buttonMax+1): #+10 ignore 'Functional' Buttons
             if not self._onClick(i):             
