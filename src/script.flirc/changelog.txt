@@ -1,2 +1,6 @@
+v1.0.1:
+  - added universal MAC library for both 32bit and 64bit XBMC support
+  - added 64bit Linux library
+
 v1.0.0:
   - initial release
