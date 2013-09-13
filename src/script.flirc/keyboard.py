@@ -48,6 +48,13 @@ UPGRADE     = 109
 
 # -----------------------------------------------------------------------------------------
 
+class Background(xbmcgui.WindowXML):
+    def __new__(cls):
+        return super(Background, cls).__new__(cls, 'background.xml', utils.getAddonPath())
+
+    def __init__(self):        
+        super(Background, self).__init__()
+
 
 class Keyboard(xbmcgui.WindowXML):
     def __new__(cls, style):
@@ -353,6 +360,7 @@ class Keyboard(xbmcgui.WindowXML):
     def checkFlirc(self):
         try:
             if self.flirc.lib == None:
+                utils.ok(1, 5, 0, 6)
                 self.close(utils.CLOSED)    
                 return
 

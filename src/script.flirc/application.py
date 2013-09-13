@@ -13,8 +13,17 @@ class Application(object):
 
 
     def run(self, style, auto):
-        while style != utils.CLOSED:      
+        utils.createKeymap()
+
+        bkgnd = keyboard.Background()
+        bkgnd.show()
+
+        while style != utils.CLOSED:  
             kb    = keyboard.Keyboard(style)
             style = kb.run(auto)
             auto  = False
             del kb
+
+        del bkgnd
+
+        utils.deleteKeymap()
