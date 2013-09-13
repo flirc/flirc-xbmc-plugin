@@ -1,0 +1,16 @@
+<keymap>
+  <Global>
+    <keyboard>
+      <f8>noop</f8>
+      <equals>noop</equals>
+      <minus>noop</minus>
+      <s>noop</s>
+      <period>noop</period>
+      <comma>noop</comma>
+      <backslash>noop</backslash>
+      <e mod="ctrl">noop</e>
+      <m mod="ctrl">noop</m>
+      <i mod="ctrl">noop</i>
+    </keyboard>
+  </Global>
+</keymap>
