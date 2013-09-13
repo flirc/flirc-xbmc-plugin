@@ -10,17 +10,16 @@ import utils
 
 def main(style = utils.XBMC, auto = False):
     app = None
-    #try:    
-    app = application.Application()
-    app.run(style, auto)
-    #except Exception, e:
-    #    utils.log("******************* ERROR IN MAIN *******************")
-    #    utils.log(e)
-    #    #raise
+    try:    
+        app = application.Application()
+        app.run(style, auto)
+    except Exception, e:
+        utils.log("******************* ERROR IN MAIN *******************")
+        utils.log(e)
+        raise
 
     if app:
         del app
-
 
 if __name__ == '__main__': 
     main()

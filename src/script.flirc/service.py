@@ -8,9 +8,6 @@ import utils
 utils.log("Service Starting")
 
 
-#import default
-#default.main('minimal', True)
-
 try:
     if utils.getSetting('autoStart') == 'true':
         utils.log("Initialising Automatic Programming Mode")
