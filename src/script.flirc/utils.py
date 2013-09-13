@@ -176,7 +176,7 @@ def yesno(title, line1, line2 = 0, line3 = 0, no = 3, yes = 2):
 
 
 def fileBrowse(title, ext):
-    default  = 'c:/'
+    default  = getUserdataPath()
     dlg      = xbmcgui.Dialog()
     filename = dlg.browse(1, getString(title), 'files', '.'+ext, False, False, default)
 
@@ -187,8 +187,46 @@ def fileBrowse(title, ext):
 
 
 def folderBrowse(title):
-    default  = 'c:/'
+    default  = getUserdataPath()
     dlg      = xbmcgui.Dialog()
     folder   = dlg.browse(3, getString(title), 'files', '', False, False, default)
 
     return folder
+
+
+def createKeymap():
+    dest = os.path.join(xbmc.translatePath('special://userdata/keymaps'), 'flirc.xml')
+
+    if os.path.exists(dest):
+        return
+
+    addonPath = xbmc.translatePath(getAddonPath())
+    source    = os.path.join(addonPath, 'flirc.xml')
+
+    f = open(source, mode='r')
+    t = f.read()
+    f.close()
+
+    try:
+        f = open(dest, mode='w')
+        f.write(t)
+        f.close()
+    except:
+        #problem writing file so just return
+        return
+
+    xbmc.sleep(500)
+    xbmc.executebuiltin('Action(reloadkeymaps)')                
+      
+
+def deleteKeymap():
+    dest = os.path.join(xbmc.translatePath('special://userdata/keymaps'), 'flirc.xml')
+  
+    try: 
+        os.remove(dest) 
+    except: 
+        pass 
+
+    xbmc.sleep(500)
+    xbmc.executebuiltin('Action(reloadkeymaps)')                
+                 
