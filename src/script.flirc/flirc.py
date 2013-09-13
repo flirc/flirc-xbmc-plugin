@@ -41,6 +41,7 @@ VID          = 0x20A0
 MANUFACTURER = ctypes.c_char_p('flirc.tv') 
 
 
+
 def callback(perc, dp):
     ctypes.cast(dp, ctypes.py_object).value.update(int(perc))
     return 0
@@ -73,8 +74,8 @@ class Flirc(object):
             utils.log('***** loadLibary Failed *****')
             utils.log('library path = %s' % path)
             utils.log('err = %s' % str(e))
-            self.lib = None
             utils.ok(1, 5, 0, 6)
+            self.lib = None            
 
 
     def __del__(self):
@@ -333,10 +334,11 @@ class Flirc(object):
             if key >= 1 and key <=12:
                 key = 'F%d' % key  
 
-        if 'hid' in key:
-            key      = int(key[3:])
-            theKey   = ctypes.c_int(key) 
-            response = self.lib.fl_set_record_api(0, theKey, WAIT)
+        nmrs = key.split(' ')
+        if len(nmrs) > 1:
+            theMod   = ctypes.c_int(int(nmrs[0])) 
+            theKey   = ctypes.c_int(int(nmrs[1])) 
+            response = self.lib.fl_set_record_api(theMod, theKey, WAIT)
         else:            
             theKey   = ctypes.c_char_p(key) 
             response = self.lib.fl_set_record(theKey, WAIT)
