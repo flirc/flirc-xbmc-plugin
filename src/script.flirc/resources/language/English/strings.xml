@@ -23,6 +23,8 @@
     <string id="14">Select configuration file</string>
     <string id="15">File being restored, please wait...</string>
 
+    <string id="16">UDEV rule not found</string>
+
     <comment>Addon settings text labels</comment>
     <string id="101">Start XBMC in automatic minimal programming mode</string>
 
@@ -62,7 +64,7 @@
 
     <comment>The following are the 'infotips' for each button, by default the same text is sent to the</comment>
     <comment>'flirc record' command if the record command needs something different add 10000 to the ID</comment>
-    <comment>to send decimal HID codes use, for example, HID 65</comment>
+    <comment>to send HID codes use, for example, 1 65</comment>
 
     <comment>------------------------------------------------------------------------------------------</comment>
 
@@ -129,7 +131,7 @@
     <string id="2029">Volume Up</string>
     <string id="12029">=</string>
     <string id="2030">Fullscreen</string>
-    <string id="12030">HID 100</string>
+    <string id="12030">0 100</string>
     <string id="2031">Toggle Subtitles</string>
     <string id="12031">t</string>
 
@@ -158,5 +160,15 @@
     <string id="12040">i</string>
     <string id="2041">CPU Usage</string>
     <string id="12041">o</string>
+
+    <string id="2045">Pictures</string>
+    <string id="12045">1 12</string>
+    <string id="2046">Music</string>
+    <string id="12046">1 16</string>
+    <string id="2047">Movies</string>
+    <string id="12047">1 8</string>
+
+    <string id="2048">Context Menu</string>
+    <string id="12048">c</string>
     <comment>------------------------------------------------------------------------------------------</comment>
 </strings>
