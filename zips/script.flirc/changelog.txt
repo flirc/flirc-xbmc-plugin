@@ -1,3 +1,10 @@
+v1.0.2:
+  - added Context Menu key
+  - added Movies Library key
+  - added Music Library key
+  - added Pictures key
+  - prevent keys being processed by XBMC whilst programming Flirc
+
 v1.0.1:
   - added universal MAC library for both 32bit and 64bit XBMC support
   - added 64bit Linux library
