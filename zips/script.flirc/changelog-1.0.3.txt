@@ -1,3 +1,6 @@
+v1.0.3:
+   - bumped Python version to 2.1.0 in preparation for Gotham
+
 v1.0.2:
   - added Context Menu key
   - added Movies Library key
